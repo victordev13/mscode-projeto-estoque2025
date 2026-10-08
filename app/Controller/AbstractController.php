@@ -6,7 +6,7 @@ abstract class AbstractController
 {
     public function render(string $viewName, array $data = []): void
     {
-        require_once($_SERVER['DOCUMENT_ROOT'] . '/' . '/view/' . $viewName);
+        require_once($_SERVER['DOCUMENT_ROOT'] . '/view/' . $viewName);
     }
 
     public function redirect(string $route): never

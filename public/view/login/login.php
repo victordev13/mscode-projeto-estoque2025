@@ -15,7 +15,7 @@
 
 <body class="d-flex align-items-center py-4 bg-body-tertiary">
   <main class="form-signin w-100 m-auto">
-    <form action="" method="POST">
+    <form action="/login" method="POST">
       <div class="d-flex align-items-center mb-4">
         <img class="p-0" src="/images/logotipo.svg" width="72" height="57">
 
